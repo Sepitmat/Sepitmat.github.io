@@ -1,157 +1,297 @@
-<!doctype html>
-
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:type" content="website">
-
-<meta property="og:title" content="MY Live | Web Player">
-<title>MESTROK | Web Player</title>
-</head>
-
-<body style="background-color:black;">
-
-    
-<center>
-   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-   <div>
-
-               
-              
-<br>               
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport_v1.png"  onclick="window.location.href='/live/sooka_assp1.html'" class="btn btn-outline-secondary btn-lg px-4">
-                
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport2_v1.png"  onclick="window.location.href='/live/sooka_assp2.html'" class="btn btn-outline-secondary btn-lg px-4">
-                 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport3_v1.png"  onclick="window.location.href='/live/sooka_assp3.html'" class="btn btn-outline-secondary btn-lg px-4">
-                  
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport4_v1.png"  onclick="window.location.href='/live/sooka_assp4.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroSuperSport5.png"  onclick="window.location.href='/live/sooka_assp5.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-				   
-				   
-                   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Arena_v1.png"  onclick="window.location.href='/live/sooka_arena1.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroArena2.png"  onclick="window.location.href='/live/sooka_arena2.html'" class="btn btn-outline-secondary btn-lg px-4">
-				   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola_v1.png"  onclick="window.location.href='/live/sooka_arenabola1.html'" class="btn btn-outline-secondary btn-lg px-4">
-				   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola2_v1.png"  onclick="window.location.href='/live/sooka_arenabola2.html'" class="btn btn-outline-secondary btn-lg px-4">
-				   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola3_v1.png"  onclick="window.location.href='/live/sooka_arenabola3.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola4.png"  onclick="window.location.href='/live/sooka_arenabola4.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://iptvms.000webhostapp.com/sukan.png"  onclick="window.location.href='/live/sukan.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-                   
-				   
-				   
-				   
-				   
-				   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/beIN_Sports_v1.png"  onclick="window.location.href='/live/bein1.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png"  onclick="window.location.href='/live/bein2.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
- <input type="image" src="https://linear-poster.astro.com.my/prod/logo/beIN_SPORTS3_V2.png"  onclick="window.location.href='/live/bein3.html'" class="btn btn-outline-secondary btn-lg px-4">
-                   
-                   
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Password Protected Page</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #dialogText {
+            color: white;
+            background-color: #333333;
+        }
         
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/SPOTV.png"  onclick="window.location.href='/live/spotv1.html'" class="btn btn-outline-secondary btn-lg px-4">
-                    
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/SPOTV2.png"  onclick="window.location.href='/live/spotv2.html'" class="btn btn-outline-secondary btn-lg px-4">
-                    
-                    
-                                    
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/WWE_v1.png"  onclick="window.location.href='/live/wwe.html'" class="btn btn-outline-secondary btn-lg px-4">
+        #dialogWrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: table;
+            background-color: #EEEEEE;
+        }
+        
+        #dialogWrapCell {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        #mainDialog {
+            max-width: 400px;
+            margin: 5px;
+            border: solid #AAAAAA 1px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px 3px #AAAAAA;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+            overflow: hidden;
+            text-align: left;
+        }
+        #mainDialog > * {
+            padding: 10px 30px;
+        }
+        #passArea {
+            padding: 20px 30px;
+            background-color: white;
+        }
+        #passArea > * {
+            margin: 5px auto;
+        }
+        #pass {
+            width: 100%;
+            height: 40px;
+            font-size: 30px;
+        }
+        
+        #messageWrapper {
+            float: left;
+            vertical-align: middle;
+            line-height: 30px;
+        }
+        
+        .notifyText {
+            display: none;
+        }
+        
+        #invalidPass {
+            color: red;
+        }
+        
+        #success {
+            color: green;
+        }
+        
+        #submitPass {
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: #E7E7E7;
+            border: solid gray 1px;
+            float: right;
+            cursor: pointer;
+        }
+        #contentFrame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #attribution {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+        #attribution, #attribution a {
+            color: #999;
+        }
+        .error {
+            display: none;
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
+    <div id="dialogWrap">
+        <div id="dialogWrapCell">
+            <div id="mainDialog">
+                <div id="dialogText">This page is password protected.</div>
+                <div id="passArea">
+                    <p id="passwordPrompt">Password</p>
+                    <input id="pass" type="password" name="pass" autofocus>
+                    <div>
+                        <span id="messageWrapper">
+                            <span id="invalidPass" class="error">Sorry, please try again.</span>
+                            <span id="trycatcherror" class="error">Sorry, something went wrong.</span>
+                            <span id="success" class="notifyText">Success!</span>
+                            &nbsp;
+                        </span>
+                        <button id="submitPass" type="button">Submit</button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div id="securecontext" class="error">
+                    <p>
+                        Sorry, but password protection only works over a secure connection. Please load this page via HTTPS.
+                    </p>
+                </div>
+                <div id="nocrypto" class="error">
+                    <p>
+                        Your web browser appears to be outdated. Please visit this page using a modern browser.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    (function() {
 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Golf_v1.png"  onclick="window.location.href='/live/golf.html'" class="btn btn-outline-secondary btn-lg px-4">
+        var pl = "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";
+        
+        var submitPass = document.getElementById('submitPass');
+        var passEl = document.getElementById('pass');
+        var invalidPassEl = document.getElementById('invalidPass');
+        var trycatcherror = document.getElementById('trycatcherror');
+        var successEl = document.getElementById('success');
+        var contentFrame = document.getElementById('contentFrame');
+        
+        // Sanity checks
 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Cricket_v1.png"  onclick="window.location.href='/live/cricket.html'" class="btn btn-outline-secondary btn-lg px-4">
+        if (pl === "") {
+            submitPass.disabled = true;
+            passEl.disabled = true;
+            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
+            return;
+        }
 
+        if (!isSecureContext) {
+            document.querySelector("#passArea").style.display = "none";
+            document.querySelector("#securecontext").style.display = "block";
+            return;
+        }
 
+        if (!crypto.subtle) {
+            document.querySelector("#passArea").style.display = "none";
+            document.querySelector("#nocrypto").style.display = "block";
+            return;
+        }
+        
+        function str2ab(str) {
+            var ustr = atob(str);
+            var buf = new ArrayBuffer(ustr.length);
+            var bufView = new Uint8Array(buf);
+            for (var i=0, strLen=ustr.length; i < strLen; i++) {
+                bufView[i] = ustr.charCodeAt(i);
+            }
+            return bufView;
+        }
 
+        async function deriveKey(salt, password) {
+            const encoder = new TextEncoder()
+            const baseKey = await crypto.subtle.importKey(
+                'raw',
+                encoder.encode(password),
+                'PBKDF2',
+                false,
+                ['deriveKey'],
+            )
+            return await crypto.subtle.deriveKey(
+                { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
+                baseKey,
+                { name: 'AES-GCM', length: 256 },
+                true,
+                ['decrypt'],
+            )
+        }
+        
+        async function doSubmit(evt) {
+            submitPass.disabled = true;
+            passEl.disabled = true;
 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/PremierSports.png"  onclick="window.location.href='/live/premier.html'" class="btn btn-outline-secondary btn-lg px-4">
+            let iv, ciphertext, key;
+            
+            try {
+                var unencodedPl = str2ab(pl);
 
+                const salt = unencodedPl.slice(0, 32)
+                iv = unencodedPl.slice(32, 32 + 16)
+                ciphertext = unencodedPl.slice(32 + 16)
 
+                key = await deriveKey(salt, passEl.value);
+            } catch (e) {
+                trycatcherror.style.display = "inline";
+                console.error(e);
+                return;
+            }
 
+            try {
+                const decryptedArray = new Uint8Array(
+                    await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
+                );
 
+                let decrypted = new TextDecoder().decode(decryptedArray);
 
+                if (decrypted === "") throw "No data returned";
 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/TV1_v1.png"  onclick="window.location.href='/live/tv1.html'" class="btn btn-outline-secondary btn-lg px-4">
+                const basestr = '<base href="." target="_top">';
+                const anchorfixstr = `
+                    <script>
+                        Array.from(document.links).forEach((anchor) => {
+                            const href = anchor.getAttribute("href");
+                            if (href.startsWith("#")) {
+                                anchor.addEventListener("click", function(e) {
+                                    e.preventDefault();
+                                    const targetId = this.getAttribute("href").substring(1);
+                                    const targetEl = document.getElementById(targetId);
+                                    targetEl.scrollIntoView();
+                                });
+                            }
+                        });
+                    <\/script>
+                `;
+                
+                // Set default iframe link targets to _top so all links break out of the iframe
+                if (decrypted.includes("<head>")) decrypted = decrypted.replace("<head>", "<head>" + basestr);
+                else if (decrypted.includes("<!DOCTYPE html>")) decrypted = decrypted.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + basestr);
+                else decrypted = basestr + decrypted;
 
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/TV2_v1.png"  onclick="window.location.href='/live/tv2.html'" class="btn btn-outline-secondary btn-lg px-4">
-                    
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Okey_v1.png"  onclick="window.location.href='/live/okey.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-
-
-
-
-
-
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/TV3_v1.png"  onclick="window.location.href='/live/tv3.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/NTV7_v1.png"  onclick="window.location.href='/live/tv7.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/8TV_v1.png"  onclick="window.location.href='/live/tv8.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/TV9_v1.png"  onclick="window.location.href='/live/tv9.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-
-
-
-
-
-
-
-
-
-
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png"  onclick="window.location.href='/live/ria.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Prima_v1.png"  onclick="window.location.href='/live/prima.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Oasis_v1.png"  onclick="window.location.href='/live/oasis.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Ceria_v1.png"  onclick="window.location.href='/live/ceria.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-<input type="image" src="https://linear-poster.astro.com.my/prod/logo/Astro_Awani_v1.png"  onclick="window.location.href='/live/awani.html'" class="btn btn-outline-secondary btn-lg px-4">
-
-
-
-
-
-
-
-           
-                    
-                    
-                   
-                   
-                   
- 
-                   
-                   
-                   
-                   
-                   
-				  </div> 
-			
-				  
-				  </div>
-	
-   </center><br><br>
-	
+                // Fix fragment links
+                if (decrypted.includes("</body>")) decrypted = decrypted.replace("</body>", anchorfixstr + '</body>');
+                else if (decrypted.includes("</html>")) decrypted = decrypted.replace("</html>", anchorfixstr + '</html>');
+                else decrypted = decrypted + anchorfixstr;
+                
+                contentFrame.srcdoc = decrypted;
+                
+                successEl.style.display = "inline";
+                setTimeout(function() {
+                    dialogWrap.style.display = "none";
+                }, 1000);
+            } catch (e) {
+                invalidPassEl.style.display = "inline";
+                passEl.value = "";
+                submitPass.disabled = false;
+                passEl.disabled = false;
+                console.error(e);
+                return;
+            }
+        }
+        
+        submitPass.onclick = doSubmit;
+        passEl.onkeypress = function(e){
+            if (!e) e = window.event;
+            var keyCode = e.keyCode || e.which;
+            invalidPassEl.style.display = "none";
+            if (keyCode == '13'){
+              // Enter pressed
+              doSubmit();
+              return false;
+            }
+        }
+    })();
+    </script>
+  </body>
+</html>
