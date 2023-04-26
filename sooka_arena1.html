@@ -36,9 +36,8 @@ onPlayerError(error);
 }
 player.getNetworkingEngine().registerRequestFilter(function(type, request) {
 if (type == shaka.net.NetworkingEngine.RequestType.SEGMENT) {
-request.headers['authorization'] = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6IlpUYzVNMlUwWWpndFl6aGtNaTAwTjJRekxUbG1PRE10TlRNd09Ea3daV0kyWVRCaiIsIndtb3BpZCI6MzIsImV4cCI6MTY3OTE2MzIyOSwiaWF0IjoxNjc4NTU5MjI5fQ.HcXQa0DcvE2splempuPREuDJfTZT_9PKR3Q0lYO3VKE';
-}
-});
+request.headers['authorization'] = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik1HSmtNelZrTldZdE5XRmlOUzAwWVdVMExUZzRNMlF0WWpVMk5EQTJZemRtWkdKaiIsIndtb3BpZCI6MzIsImV4cCI6MTY4MzExMzIwMCwiaWF0IjoxNjgyNTA5MjAwfQ.8iiHpEWJeHv3ywBd93KZTAysimkx2i762qz6fWdkhCI';}
+});    
 }
 
 function onPlayerErrorEvent(errorEvent) {
