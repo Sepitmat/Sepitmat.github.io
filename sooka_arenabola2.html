@@ -36,7 +36,7 @@ onPlayerError(error);
 }
 player.getNetworkingEngine().registerRequestFilter(function(type,request)
 {if(type==shaka.net.NetworkingEngine.RequestType.SEGMENT)
-{request.headers['authorization']='Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik9HWmtNRFk1TVRZdFl6UmxaQzAwTm1NMUxXRmxaV1l0TlRFNVlUUXhZV0V5WkdVNSIsIndtb3BpZCI6MzIsImV4cCI6MTY4NDU2OTIyMCwiaWF0IjoxNjgzOTY1MjIwfQ.KKH9dfTzsPEHuucY8ABF-pl601Z-YnFkSBdyGS8-alkeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik9HWmtNRFk1TVRZdFl6UmxaQzAwTm1NMUxXRmxaV1l0TlRFNVlUUXhZV0V5WkdVNSIsIndtb3BpZCI6MzIsImV4cCI6MTY4NDU2OTIyMCwiaWF0IjoxNjgzOTY1MjIwfQ.KKH9dfTzsPEHuucY8ABF-pl601Z-YnFkSBdyGS8-alk';}});
+{request.headers['authorization']='Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik9HWmtNRFk1TVRZdFl6UmxaQzAwTm1NMUxXRmxaV1l0TlRFNVlUUXhZV0V5WkdVNSIsIndtb3BpZCI6MzIsImV4cCI6MTY4NDU2OTIyMCwiaWF0IjoxNjgzOTY1MjIwfQ.KKH9dfTzsPEHuucY8ABF-pl601Z-YnFkSBdyGS8-alk';}});
 }
 
 function onPlayerErrorEvent(errorEvent) {
@@ -57,3 +57,5 @@ console.error('Unable to load the UI library!');
 document.addEventListener('shaka-ui-loaded', init);
 document.addEventListener('shaka-ui-load-failed', initFailed);
 </script>
+
+
